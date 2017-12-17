@@ -2,7 +2,7 @@
 
 ## Getting started
 
-In Ammonite-REPL:
+In [Ammonite-REPL](http://ammonite.io/):
 
 ```scala
 (() => {
@@ -20,3 +20,10 @@ In Ammonite-REPL:
   rm! tmpDir
 })()
 ```
+
+Checklist:
+
+- [ ] Change name in root `build.sbt`
+- [ ] Delete app-starter's README.md
+- [ ] Declare needed dependencies in `/project/Dependencies.scala`
+- [ ] Upgrade libraries (`sbt dependencyUpdates`)
