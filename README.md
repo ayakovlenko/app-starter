@@ -17,6 +17,9 @@ In [Ammonite-REPL](http://ammonite.io/):
 
   mv(tmpDir/"app-starter-master", wd/appName)
 
+  // Delete app-starter's README.md
+  rm! wd/"README.md"
+
   rm! tmpDir
 })()
 ```
@@ -24,6 +27,5 @@ In [Ammonite-REPL](http://ammonite.io/):
 Checklist:
 
 - [ ] Change name in root `build.sbt`
-- [ ] Delete app-starter's README.md
 - [ ] Declare needed dependencies in `/project/Dependencies.scala`
 - [ ] Upgrade libraries (`sbt dependencyUpdates`)
