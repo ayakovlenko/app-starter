@@ -18,7 +18,7 @@ In [Ammonite-REPL](http://ammonite.io/):
   mv(tmpDir/"app-starter-master", wd/appName)
 
   // Delete app-starter's README.md
-  rm! wd/"README.md"
+  rm! wd/appName/"README.md"
 
   rm! tmpDir
 })()
